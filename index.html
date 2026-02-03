@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Jasper Johns - Artista pionero del Pop Art. Descubre su vida, obras maestras y legado en el arte moderno.">
+    <meta name="author" content="Jineth Muñoz">
+    <title>Jasper Johns | Pop Art Master</title>
+    
+    <!-- Tipografías profesionales -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <!-- Favicon SVG Embebido -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%231a1a1a'/%3E%3Crect x='20' y='20' width='60' height='60' fill='%23ffffff' opacity='0.8'/%3E%3Crect x='35' y='35' width='30' height='30' fill='%231a1a1a'/%3E%3C/svg%3E">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Skip to main content link para accesibilidad -->
+    <a href="#main-content" class="skip-to-main">Ir al contenido principal</a>
+    
+    <!-- NAVEGACIÓN FIJA SUPERIOR - Estilo MoMA -->
+    <header class="navbar" role="navigation" aria-label="Navegación principal">
+        <div class="nav-container">
+            <!-- Logo / Branding -->
+            <div class="logo">
+                <span class="logo-text">JASPER JOHNS</span>
+            </div>
+            
+            <!-- Menú Principal -->
+            <nav class="nav-menu-wrapper">
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">Biografía</a></li>
+                    <li><a href="#works" class="nav-link">Obras</a></li>
+                    <li><a href="#gallery" class="nav-link">Galería</a></li>
+                    <li><a href="#facts" class="nav-link">Curiosidades</a></li>
+                    <li><a href="#sources" class="nav-link">Referencias</a></li>
+                </ul>
+            </nav>
+
+            <!-- Control de Audio Ambiente -->
+            <div class="audio-control">
+                <button id="audioToggle" class="audio-btn" 
+                        title="Activar/Desactivar ambiente de museo" 
+                        aria-label="Activar ambiente de museo" 
+                        aria-pressed="false">
+                    <span class="audio-icon" aria-hidden="true">🔊</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <main id="main-content">
+        <!-- SECCIÓN HERO / HOME -->
+        <section id="home" class="hero section-hero">
+            <div class="hero-container">
+                <div class="hero-content">
+                                <h1 class="title-main">Jasper Johns</h1>
+
+                                <!-- Slideshow junto al nombre: secuencia automática de imágenes -->
+                                <div class="name-slideshow" aria-hidden="true">
+                                    <div class="slide active"><img src="img/Jasperjohns1.jpg" alt="Detalle de Flag" loading="lazy" decoding="async"></div>
+                                    <div class="slide"><img src="img/jasperjohns3.jpg" alt="Detalle de Numbers" loading="lazy" decoding="async"></div>
+                                    <div class="slide"><img src="img/jasperjohns4.webp" alt="Detalle de Painting with Two Balls" loading="lazy" decoding="async"></div>
+                                </div>
+                    <p class="subtitle">Revolucionario del Pop Art</p>
+                    <div class="numbers-display" aria-hidden="true">
+                        <span class="number">0</span>
+                        <span class="number">5</span>
+                        <span class="number">1</span>
+                        <span class="number">9</span>
+                    </div>
+                    <p class="hero-description">Transformó objetos cotidianos en obras maestras icónicas</p>
+                </div>
+
+                <!-- Video Embebido Profesional -->
+                <div class="video-wrapper">
+                    <div class="video-label" aria-label="Sección de video documental">
+                        <span class="video-title">Documental</span>
+                    </div>
+                    <div class="video-container">
+                        <iframe 
+                            id="jasper-video"
+                            class="hero-video"
+                            src="https://www.youtube.com/embed/eG2vsGRzKto?rel=0&controls=1" 
+                            title="Jasper Johns - Documental"
+                            frameborder="0"
+                            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; autoplay"
+                            allowfullscreen
+                            loading="lazy">
+                        </iframe>
+                    </div>
+                    <p class="video-caption">Explora la vida y obra del maestro del Pop Art</p>
+                </div>
+            </div>
+            <div class="hero-shapes" aria-hidden="true">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN BIOGRAFÍA -->
+        <section id="about" class="section section-about">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Biografía</h2>
+                    <p class="section-subtitle">La vida y obra de un artista visionario</p>
+                </div>
+
+                <div class="biography-content">
+                    <div class="bio-text">
+                        <h3>Quién fue Jasper Johns</h3>
+                        <p><strong>Jasper Johns Jr.</strong> (1930-) es un artista estadounidense que revolucionó el arte moderno al transformar objetos y símbolos cotidianos en obras maestras. Nació en Augusta, Georgia, y creció en Carolina del Sur. Se considera uno de los pioneros del Pop Art y un puente fundamental entre el Expresionismo Abstracto y el movimiento Pop.</p>
+                        
+                        <h3>Su Vida</h3>
+                        <p>Johns se trasladó a Nueva York en 1952, donde comenzó su carrera artística. Aunque creció en un entorno modesto, su pasión por el arte lo llevó a convertirse en una figura central en el mundo del arte contemporáneo. Ha sido profesor, artista y mentor de varias generaciones de artistas que aprendieron de su innovador enfoque visual.</p>
+                        
+                        <h3>Lo que Hizo Revolucionario</h3>
+                        <p>Johns cambió la forma en que entendemos el arte al preguntarse: <em>"¿Qué es arte y qué es solo un objeto?"</em> Utilizó símbolos americanos comunes como la bandera, números y letras como temas principales. Combinaba técnicas como óleo, encáustica (pintura con cera caliente) y collage, creando obras con texturas y capas complejas que invitaban a los espectadores a mirar más allá de la superficie.</p>
+                        
+                        <h3>Su Legado Hoy</h3>
+                        <p>Johns ganó la Medalla Nacional de las Artes y su obra se exhibe en los museos más importantes del mundo: MoMA en Nueva York, el Guggenheim y el Museo Metropolitano. Sus ideas sobre cómo transformar lo cotidiano en arte siguen inspirando a artistas contemporáneos. Para los estudiantes, su trabajo enseña que la creatividad no requiere temas complicados: el verdadero arte está en cómo ves las cosas ordinarias.</p>
+                    </div>
+                    
+                    <div class="bio-decoration">
+                        <img src="img/Jasperjohns1.jpg" alt="Flag - Obra maestra de Jasper Johns" class="bio-image" loading="lazy" decoding="async">
+                        <img src="img/jasperjohns2.jpg" alt="Target with Four Faces" class="bio-image" loading="lazy" decoding="async">
+                        <img src="img/jasperjohns3.jpg" alt="Numbers - Serie de Jasper Johns" class="bio-image" loading="lazy" decoding="async">
+                        <img src="img/jasperjohns4.webp" alt="Painting with Two Balls" class="bio-image" loading="lazy" decoding="async">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN OBRAS PRINCIPALES -->
+        <section id="works" class="section section-works">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Obras Principales</h2>
+                    <p class="section-subtitle">Las creaciones que revolucionaron el arte moderno</p>
+                </div>
+
+                <div class="obras-grid">
+                    <div class="obra-card">
+                        <div class="obra-numero">01</div>
+                        <h3>Flag</h3>
+                        <p class="obra-year">1954</p>
+                        <p class="obra-description">La obra maestra que cambió el arte moderno. Johns pintó la bandera americana en tamaño natural usando óleo y encáustica. Esta obra revolucionaria planteó una pregunta fundamental: ¿es un objeto cotidiano o una obra de arte? La respuesta fue ambas cosas.</p>
+                        <span class="obra-tech">Óleo y Encáustica</span>
+                    </div>
+
+                    <div class="obra-card">
+                        <div class="obra-numero">02</div>
+                        <h3>Target with Four Faces</h3>
+                        <p class="obra-year">1955</p>
+                        <p class="obra-description">Una diana concéntrica con rostros de yeso en la parte superior. Combina pintura con elementos tridimensionales, desafiando la frontera entre pintura y escultura. Invita al espectador a cuestionar qué está viendo realmente.</p>
+                        <span class="obra-tech">Óleo, Encáustica y Yeso</span>
+                    </div>
+
+                    <div class="obra-card">
+                        <div class="obra-numero">03</div>
+                        <h3>Numbers</h3>
+                        <p class="obra-year">1957-1958</p>
+                        <p class="obra-description">Serie icónica donde los números 0-9 se convierten en arte puro. Cada número está pintado en colores vibrantes y superpuestos. Demuestra que los símbolos cotidianos pueden tener profundidad artística y belleza visual.</p>
+                        <span class="obra-tech">Óleo y Encáustica</span>
+                    </div>
+
+                    <div class="obra-card">
+                        <div class="obra-numero">04</div>
+                        <h3>Painting with Two Balls</h3>
+                        <p class="obra-year">1960</p>
+                        <p class="obra-description">Un lienzo dividido verticalmente con dos esferas de plástico que sobresalen. Una exploración innovadora de cómo la tercera dimensión puede coexistir con la pintura bidimensional, creando tensión visual.</p>
+                        <span class="obra-tech">Óleo, Encáustica y Plástico</span>
+                    </div>
+
+                    <div class="obra-card">
+                        <div class="obra-numero">05</div>
+                        <h3>Ale Cans</h3>
+                        <p class="obra-year">1964</p>
+                        <p class="obra-description">Dos latas de cerveza Ballantine perfectamente esculpidas en bronce. Una irónica crítica del consumismo y la valoración del arte. ¿Cuándo una lata de cerveza se convierte en arte? Cuando un artista decide que lo es.</p>
+                        <span class="obra-tech">Bronce</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN GALERÍA -->
+        <section id="gallery" class="section section-gallery">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Galería Visual</h2>
+                    <p class="section-subtitle">Explora su obra a través de imágenes</p>
+                </div>
+
+                <div class="gallery">
+                    <!-- OBRA 1: Flag - DESTACADA -->
+                    <article class="gallery-item gallery-featured" role="button" tabindex="0" aria-label="Flag (1954) - Obra maestra de Jasper Johns en óleo y encáustica">
+                        <img src="img/Jasperjohns1.jpg" alt="Flag (1954) - Bandera americana pintada en óleo y encáustica, obra revolucionaria de Jasper Johns" class="gallery-image" loading="lazy" decoding="async">
+                        <div class="gallery-overlay">
+                            <h4>Flag</h4>
+                            <p>1954</p>
+                            <p class="legacy">MoMA New York</p>
+                        </div>
+                        <p class="gallery-caption">Flag (1954)</p>
+                    </article>
+
+                    <!-- OBRA 2: Target -->
+                    <article class="gallery-item" role="button" tabindex="0" aria-label="Target with Four Faces (1955) - Diana concéntrica con rostros de yeso de Jasper Johns">
+                        <img src="img/jasperjohns2.jpg" alt="Target with Four Faces (1955) - Diana concéntrica con rostros de yeso incrustados en la parte superior" class="gallery-image" loading="lazy" decoding="async">
+                        <div class="gallery-overlay">
+                            <h4>Target with Four Faces</h4>
+                            <p>1955</p>
+                            <p class="legacy">Guggenheim Museum</p>
+                        </div>
+                        <p class="gallery-caption">Target (1955)</p>
+                    </article>
+
+                    <!-- OBRA 3: Numbers -->
+                    <article class="gallery-item" role="button" tabindex="0" aria-label="Numbers (1957-1958) - Serie icónica de números en colores vibrantes superpuestos">
+                        <img src="img/jasperjohns3.jpg" alt="Numbers (1957-1958) - Serie de números 0-9 en colores vibrantes superpuestos sobre óleo y encáustica" class="gallery-image" loading="lazy" decoding="async">
+                        <div class="gallery-overlay">
+                            <h4>Numbers</h4>
+                            <p>1957-1958</p>
+                            <p class="legacy">Colecciones Mundiales</p>
+                        </div>
+                        <p class="gallery-caption">Numbers (1957-1958)</p>
+                    </article>
+
+                    <!-- OBRA 4: Painting with Two Balls -->
+                    <article class="gallery-item" role="button" tabindex="0" aria-label="Painting with Two Balls (1960) - Lienzo con esferas de plástico salientes">
+                        <img src="img/jasperjohns4.webp" alt="Painting with Two Balls (1960) - Lienzo dividido verticalmente con dos esferas de plástico salientes" class="gallery-image" loading="lazy" decoding="async">
+                        <div class="gallery-overlay">
+                            <h4>Two Balls</h4>
+                            <p>1960</p>
+                            <p class="legacy">MoMA Collection</p>
+                        </div>
+                        <p class="gallery-caption">Two Balls (1960)</p>
+                    </article>
+
+                    <!-- OBRA 5: Ale Cans - DESTACADA -->
+                    <article class="gallery-item gallery-featured" role="button" tabindex="0" aria-label="Ale Cans (1964) - Latas de cerveza esculpidas en bronce, crítica del consumismo">
+                        <img src="img/Jj4.jpg" alt="Ale Cans (1964) - Dos latas de cerveza Ballantine perfectamente esculpidas en bronce" class="gallery-image" loading="lazy" decoding="async">
+                        <div class="gallery-overlay">
+                            <h4>Ale Cans</h4>
+                            <p>1964</p>
+                            <p class="legacy">Metropolitan Museum</p>
+                        </div>
+                        <p class="gallery-caption">Ale Cans (1964)</p>
+                    </article>
+
+                    <!-- OBRA 6: Serie Adicional -->
+                    <article class="gallery-item" role="button" tabindex="0" aria-label="Serie Moderna - Obra contemporánea de Jasper Johns de los años 80-90">
+                        <img src="img/jj5.jpg" alt="Serie Moderna - Obra contemporánea de Jasper Johns de los años 80 y 90 mostrando su evolución estilística" class="gallery-image" loading="lazy" decoding="async">
+                        <div class="gallery-overlay">
+                            <h4>Serie Moderna</h4>
+                            <p>1980s-1990s</p>
+                            <p class="legacy">Evolución estilística</p>
+                        </div>
+                        <p class="gallery-caption">Serie Moderna</p>
+                    </article>
+
+                    <!-- OBRA 7: Técnica Encáustica -->
+                    <article class="gallery-item" role="button" tabindex="0" aria-label="Técnica Encáustica - Detalle del proceso de pintura con cera caliente, marca inconfundible de Jasper Johns">
+                        <img src="img/jj6.jpg" alt="Detalle de técnica encáustica - Pintura con cera caliente y óleo, marca inconfundible de Jasper Johns" class="gallery-image" loading="lazy" decoding="async">
+                        <div class="gallery-overlay">
+                            <h4>Técnica</h4>
+                            <p>Encáustica y Óleo</p>
+                            <p class="legacy">Su marca inconfundible</p>
+                        </div>
+                        <p class="gallery-caption">Técnica Emblemática</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN CURIOSIDADES -->
+        <section id="facts" class="section section-facts">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Curiosidades</h2>
+                    <p class="section-subtitle">Datos fascinantes sobre su vida y obra</p>
+                </div>
+
+                <div class="curiosities-container">
+                    <div class="curiosity-card">
+                        <div class="curiosity-icon">✦</div>
+                        <h3>El Sueño que Inspiró Flag</h3>
+                        <p>Johns tuvo un sueño en 1954 donde pintaba la bandera americana. Al despertar, decidió pintarla y revolucionó el arte moderno.</p>
+                    </div>
+
+                    <div class="curiosity-card">
+                        <div class="curiosity-icon">◆</div>
+                        <h3>Obsesión por los Números</h3>
+                        <p>Los números del 0 al 9 se convirtieron en sus símbolos artísticos favoritos, apareciendo en innumerables obras a lo largo de su carrera.</p>
+                    </div>
+
+                    <div class="curiosity-card">
+                        <div class="curiosity-icon">✧</div>
+                        <h3>Reconocimiento Internacional</h3>
+                        <p>Sus obras se venden por millones de dólares. Flag es considerada una de las obras más importantes del siglo XX.</p>
+                    </div>
+
+                    <div class="curiosity-card">
+                        <div class="curiosity-icon">◈</div>
+                        <h3>Colaboración Artística</h3>
+                        <p>Johns diseñó trajes y escenarios para el coreógrafo Merce Cunningham, explorando la intersección entre artes visuales y danza.</p>
+                    </div>
+
+                    <div class="curiosity-card">
+                        <div class="curiosity-icon">◉</div>
+                        <h3>Artista Versátil</h3>
+                        <p>Trabaja con pintura, escultura, litografía, grabado y fotografía, demostrando versatilidad artística sin límites.</p>
+                    </div>
+
+                    <div class="curiosity-card">
+                        <div class="curiosity-icon">⬢</div>
+                        <h3>Influencia en la Pop Art</h3>
+                        <p>Su uso de símbolos cotidianos influyó en artistas como Andy Warhol y Roy Lichtenstein, definiendo el Pop Art.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN REFERENCIAS Y FUENTES -->
+        <section id="sources" class="section section-sources">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Referencias</h2>
+                    <p class="section-subtitle">Fuentes y recursos para profundizar</p>
+                </div>
+
+                <div class="sources-content">
+                    <section class="source-category">
+                        <h3>Créditos de Imágenes</h3>
+                        <ul class="sources-list">
+                            <li>Jasperjohns1.jpg — "Flag" (MoMA). Imagen usada con fines educativos; consulte la colección original: <a href="https://www.moma.org/" target="_blank" rel="noopener noreferrer">MoMA</a>.</li>
+                            <li>jasperjohns2.jpg — "Target with Four Faces" (Guggenheim). Fuente: <a href="https://www.guggenheim.org/" target="_blank" rel="noopener noreferrer">Guggenheim</a>.</li>
+                            <li>jasperjohns3.jpg — "Numbers" (colecciones públicas). Consulte la colección correspondiente.</li>
+                            <li>jasperjohns4.webp — "Painting with Two Balls" (MoMA collection).</li>
+                            <li>Jj4.jpg — "Ale Cans" (Metropolitan Museum).</li>
+                            <li>jj5.jpg, jj6.jpg — imágenes de estudio y técnica, uso educativo.</li>
+                        </ul>
+                    </section>
+                    <section class="source-category">
+                        <h3>Bibliografía Recomendada</h3>
+                        <ul class="sources-list">
+                            <li><strong>Jasper Johns: A Life</strong> — Kirkpatrick Sale</li>
+                            <li><strong>Jasper Johns: Numbers</strong> — Museo de Arte Moderno (MoMA)</li>
+                            <li><strong>The Paintings of Jasper Johns</strong> — Michael Crichton</li>
+                            <li><strong>Jasper Johns: Work Since 1974</strong> — Publicación del Museo Guggenheim</li>
+                        </ul>
+                    </section>
+
+                    <section class="source-category">
+                        <h3>Colecciones Permanentes</h3>
+                        <ul class="sources-list">
+                            <li><a href="https://www.moma.org/collection?q=jasper%20johns" target="_blank" rel="noopener noreferrer" class="source-link" title="Jasper Johns en MoMA (abre en nueva ventana)">MoMA — Jasper Johns Collection</a></li>
+                            <li><a href="https://www.guggenheim.org/exhibitions" target="_blank" rel="noopener noreferrer" class="source-link" title="Guggenheim Museum (abre en nueva ventana)">Guggenheim Museum — Major Works</a></li>
+                            <li><a href="https://americanart.si.edu" target="_blank" rel="noopener noreferrer" class="source-link" title="Smithsonian American Art Museum (abre en nueva ventana)">Smithsonian American Art Museum</a></li>
+                            <li><a href="https://www.metmuseum.org/art/collection" target="_blank" rel="noopener noreferrer" class="source-link" title="The Metropolitan Museum of Art (abre en nueva ventana)">The Metropolitan Museum of Art</a></li>
+                        </ul>
+                    </section>
+
+                    <section class="source-category">
+                        <h3>Documentales y Medios</h3>
+                        <ul class="sources-list">
+                            <li>"Jasper Johns: Something Resembling Truth" (2017)</li>
+                            <li>"Pop Art: A Movement That Shook the World" — Serie Documental</li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-title">Sobre este sitio</h3>
+                    <p class="footer-text">Tributo dedicado a Jasper Johns, pionero del Pop Art. Diseño minimalista inspirado en la estética del Museo de Arte Moderno (MoMA).</p>
+                </div>
+
+                <div class="footer-section">
+                    <h3 class="footer-title">Enlaces Oficiales</h3>
+                    <ul class="footer-links">
+                        <li><a href="https://www.moma.org/collection" target="_blank" rel="noopener noreferrer" title="Colecciones MoMA (abre en nueva ventana)">MoMA Collections</a></li>
+                        <li><a href="https://www.guggenheim.org" target="_blank" rel="noopener noreferrer" title="Museo Guggenheim (abre en nueva ventana)">Guggenheim Museum</a></li>
+                        <li><a href="https://www.metmuseum.org" target="_blank" rel="noopener noreferrer" title="Metropolitan Museum (abre en nueva ventana)">Metropolitan Museum</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3 class="footer-title">Créditos</h3>
+                    <p class="footer-credit">Diseñado por <strong>Jineth Muñoz</strong></p>
+                    <p class="footer-credit">Año <time datetime="2026">2026</time></p>
+                </div>
+            </div>
+
+            <div class="footer-divider" aria-hidden="true"></div>
+
+            <div class="footer-bottom">
+                <p class="footer-copy">&copy; 2026 Tributo a Jasper Johns. Contenido educativo. Todas las imágenes son para propósitos informativos.</p>
+                <p class="footer-legal"><a href="#" class="footer-legal-link">Política de Privacidad</a> — <a href="#" class="footer-legal-link">Términos de Uso</a></p>
+            </div>
+
+            <div class="footer-shapes" aria-hidden="true">
+                <div class="footer-shape"></div>
+                <div class="footer-shape"></div>
+                <div class="footer-shape"></div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+const cursor = document.createElement("div");
+cursor.className = "copilot-negative-cursor";
+document.body.appendChild(cursor);
+
+document.addEventListener("mousemove", (e) => {
+  cursor.style.left = `${e.clientX}px`;
+  cursor.style.top = `${e.clientY}px`;
+});
+</body>
+</html>
